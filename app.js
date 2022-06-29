@@ -7,5 +7,7 @@ for(let i = 1; i < 151; i++) {
     label.innerText = `#${i}`;
     const newImg = document.createElement('img');
     newImg.src = `${baseURL}${i}.png`
-    container.appendChild(newImg)
+    pokemon.appendChild(newImg);
+    pokemon.appendChild(label);
+    container.appendChild(pokemon)
 }
